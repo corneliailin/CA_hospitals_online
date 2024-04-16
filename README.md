@@ -1,4 +1,4 @@
-# Utilizing Prenatal Data for Early Detection of Pediatric Health Risks: An Exploratory Approach for Improved Clinical Outcomes.
+# Utilizing Prenatal Data for Early Detection of Pediatric Health Risks: An Exploratory Approach for Improved Clinical Outcomes
 
 ## Motivation
 Early identification of diseases and their associated length of hospital stay (LoS) is vital for better treatment options, more effective follow-up arrangements, and lower hospital utilization costs. 
@@ -13,5 +13,6 @@ Our research introduces Ped-BERT, a deep learning model developed to predict ove
 ## Scripts
 We divide our scrips into data cleaning and analysis, as follows: 
 [1] The data cleaning folder includes TensorFlow code for preprocessing and merging the health and geospatial datasets;
+
 [2] The analysis folder includes TensorFlow code for conducting the Ped-BERT analysis, encompassing both pre-training and fine-tuning stages. We also include code for logistic regression (LR), random forest (RF), and pre-training and fine-tuning of a transformer decoder-only model (TDecoder). The code presented here supports our downstream analysis of predicting the primary diagnosis and associated hospital LoS for the subsequent medical encounter.
 
